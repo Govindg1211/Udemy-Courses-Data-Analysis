@@ -25,23 +25,26 @@ engagement and satisfaction.
 This machine learning project aims to develop predictive models to estimate:
 1. The anticipated number of subscribers for a course by analysing factors such as price,
  ratings, lecture count, publication date, and other relevant attributes.
-3. The expected average rating of a course based on its features, student engagement metrics,
+2. The expected average rating of a course based on its features, student engagement metrics,
 and pricing information.
 By leveraging historical data from Udemy, our model can assist instructors in making informed
 decisions about course content, pricing, and marketing, ultimately leading to a better
 learning experience for students.
 
-### Objective:
+## Objective:
 
 • Build machine learning models to predict:
 1. Number of subscribers a course will attract.
 2. Average rating a course is likely to receive.
 
-### Key Features to Consider:
+## Key Features to Consider:
 
 • Course Attributes: Title, number of lectures, and practice tests.
+
 • Pricing Information: Original price and discounted price.
+
 • Engagement Metrics: Number of reviews and wishlist status.
+
 • Publication Details: Release date and duration on the platform.
 
 ---
@@ -116,32 +119,43 @@ variance.
 
 Step 1: Import Required Libraries
 • Load essential Python libraries for data manipulation, visualization, and machine learning.
+
 Step 2: Load the Dataset
 • Read the dataset into a DataFrame and check its structure to understand the data.
+
 Step 3: Exploratory Data Analysis (EDA)
 • Analyze the dataset's shape, column names, data types, and missing values.
 • Visualize key variables to understand their distributions and relationships.
 • Generate a correlation heatmap to identify important numerical features.
+
 Step 4: Data Preprocessing
 • Handle missing values by either filling or dropping them.
 • Convert categorical variables into numerical format using encoding techniques.
+
 Step 5: Feature Engineering
 • Remove irrelevant columns that don’t contribute to prediction.
 • Scale numerical features to ensure a uniform range.
+
 Step 6: Splitting Data into Training & Testing Sets
 • Divide the dataset into training and testing sets to train and evaluate models.
+
 Step 7: - Model Selection & Training
 • Train multiple regression models for prediction.
 Step 8: Define Machine Learning Models
 • Stacking Regressor with multiple base models.
+
 Step 9: Train the Models
 • Fit the Stacking Regressor on training data.
+
 Step 10: Model Predictions
 • Use the trained model to predict the target variables.
+
 Step 11: Model Evaluation
 • Use MAE, MSE, and R² Score to assess model performance.
+
 Step 12: Hyperparameter Tuning
 • Improve model performance by optimizing parameters using grid search.
+
 Step 13: Model Saving & Deployment
 • Save the best-performing model and use it for future predictions.
 
